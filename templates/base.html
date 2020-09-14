@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <div class="topnav">
+		<img src="https://image.flaticon.com/icons/png/512/258/258344.png" width="60" height="60" alt="home">
+  		<a class="home" href="index.html">Дом</a>
+  		<a class="commands" href="pages/commands.html">Панель</a>
+  		<a class="document" href="pages/doc.html">Документация</a>
+  		<a class="contact" href="pages/contact.html">Связь</a>
+	</div>
+	<div class="vhodreg">
+		<a id="vhod" href="#">Вход</a>
+	  	<a id="reg" href="#">Регистрация</a>
+	</div>
+    {% block body %}{% endblock %}
+</body>
+</html>

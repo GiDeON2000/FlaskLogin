@@ -1,0 +1,195 @@
+* {
+	background-color: #2E2E2E;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+.title {
+	font-size: 50px;
+	color: orange;
+	position: absolute;
+	transition: .8s;
+	top: 60%;
+	left: 49%;
+	transform: translate(-50%, -50%);
+}
+
+.title:hover {
+	color: #E9B858;
+}
+
+
+#invite {
+	position: absolute;
+	font-size: 20px;
+	background: #F2B114;
+	top: 75%;
+	left: 31%;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	color: white;
+	border: 0px solid orange;
+	border-radius: 5px;
+	width: 280px;
+	height: 40px;
+	transition: .8s;
+	line-height: 40px;
+	text-align: center;
+}
+
+#guild {
+	position: absolute;
+	font-size: 18px;
+	top: 75%;
+	left: 54%;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	color: white;
+	border: 0px solid gray;
+	background: gray;
+	border-radius: 5px;
+	width: 180px;
+	height: 40px;
+	transition: .8s;
+	line-height: 40px;
+	text-align: center;
+}
+
+#invite:hover {
+	text-decoration: underline;
+	background: #E2C274;
+	color: #000;
+}
+
+#guild:hover {
+	text-decoration: underline;
+	background: white;
+	color: #000;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    border-radius: 10px;
+    transition: .6s;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.home {
+	border: 0px;
+	background: #000;
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	left: 100px;
+	top: 2%;
+}
+
+.home:active {
+	background: #3688C2;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.commands {
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	left: 180px;
+	top: 2%;
+}
+
+.commands:active {
+	background: #3688C2;
+}
+
+.document {
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	left: 300px;
+	top: 2%;
+}
+
+.document:active {
+	background: #3688C2;
+}
+
+.contact {
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	left: 450px;
+	top: 2%;
+}
+
+.contact:active {
+	background: #3688C2;
+}
+
+
+#vhod {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	margin: 50px;
+	line-height: 29px;
+	border-radius: 15px;
+	top: -20px;
+	left: 75%;
+	border: 1px solid gray;
+	color: white;
+	transition: .7s;
+	width: 100px;
+	height: 30px;
+	display: block;
+}
+
+.commands:active {
+	background: #3688C2;
+}
+
+#reg {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	border-radius: 15px;
+	margin: 50px;
+	top: -20px;
+	line-height: 29px;
+	left: 85%;
+	border: 1px solid #F94E4E;
+	color: white;
+	transition: .7s;
+	width: 120px;
+	height: 30px;
+	display: block;
+}
+
+#vhod:hover {
+	color: #000;
+	background: #fff;
+	border: white;
+}
+
+#reg:hover {
+	color: #000;
+	background: #00BAFF;
+	border: #F94E4E;
+}
